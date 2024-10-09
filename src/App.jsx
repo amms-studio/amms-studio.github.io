@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="flex h-screen w-full flex-col items-start justify-start gap-2 p-6 font-[terminal-grotesque] text-3xl sm:text-6xl">
-      <div className="flex flex-wrap items-center gap-2">
+      <div className="flex flex-wrap items-center gap-3">
         <h1 className="animate-pulse">a++s</h1>
         <div className="bg-accent size-2 rounded-full sm:size-3"></div>
         <h2 className="">diseño, desarrollo web, dirección creativa</h2>
