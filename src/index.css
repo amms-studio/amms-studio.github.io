@@ -28,6 +28,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background-color: var(--text);
+  color: var(--background);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --text: #000;
