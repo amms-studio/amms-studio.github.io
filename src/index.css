@@ -14,8 +14,13 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgb(231, 236, 241);
-  background-color: #131411;
+  color: var(--text);
+  background-color: var(--background);
+
+  --text: #e7ecf1;
+  --secondary: #3d3d3d;
+  --background: #131411;
+  --accent: #0f0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +30,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #000;
-    background-color: #fff;
+    --text: #000;
+    --secondary: #a3a3a3;
+    --background: #fff;
   }
 }
