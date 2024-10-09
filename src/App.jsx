@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import data from "./data";
+import Contact from "./components/Contact";
 
 function App() {
   const [pageData, setPageData] = useState(data);
+  const [isContactOpen, setIsContactOpen] = useState(false);
 
   useEffect(() => {
     const groupedByYear = data.works.reduce((acc, work) => {
@@ -50,6 +52,25 @@ function App() {
             </ul>
           </div>
         ))}
+
+      <button
+        className="hover:bg-accent bg-text text-background mt-8 px-2 text-base"
+        onClick={() => setIsContactOpen(!isContactOpen)}
+      >
+        contacto
+      </button>
+
+      {isContactOpen && (
+        <div className="bg-background fixed inset-0 flex h-screen w-screen items-center justify-center">
+          <button
+            className="hover:text-accent absolute right-4 top-4"
+            onClick={() => setIsContactOpen(false)}
+          >
+            X
+          </button>
+          <Contact />
+        </div>
+      )}
     </div>
   );
 }
