@@ -21,7 +21,7 @@ function App() {
     <div className="flex h-screen w-full flex-col items-start justify-start gap-2 p-6 font-[terminal-grotesque] text-3xl sm:text-6xl">
       <div className="flex flex-wrap items-center gap-2">
         <h1 className="animate-pulse">a++s</h1>
-        <div className="size-2 rounded-full bg-[#0f0] sm:size-3"></div>
+        <div className="bg-accent size-2 rounded-full sm:size-3"></div>
         <h2 className="">diseño, desarrollo web, dirección creativa</h2>
       </div>
       {pageData.years &&
@@ -35,7 +35,7 @@ function App() {
                     href={work.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:text-[#0f0]"
+                    className="hover:text-accent"
                   >
                     {work.title}
                   </a>
