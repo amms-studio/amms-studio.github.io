@@ -21,13 +21,13 @@ const data = {
       url: "https://www.gregorionash.com",
       year: 2024,
     },
-    {
-      id: 4,
-      title: "radiocaso.xyz",
-      details: { en: "under construction", es: "en construccion" },
-      url: "https://www.radiocaso.xyz",
-      year: 2024,
-    },
+    // {
+    //   id: 4,
+    //   title: "radiocaso.xyz",
+    //   details: { en: "under construction", es: "en construccion" },
+    //   url: "https://www.radiocaso.xyz",
+    //   year: 2024,
+    // },
     {
       id: 5,
       title: "omu.astrosuka.xyz",
