@@ -1,6 +1,12 @@
 const data = {
   works: [
     {
+      id: "terra-ignota-map",
+      title: "terraignota-map",
+      url: "https://tignotamap.github.io/terraignota-map",
+      year: 2025,
+    },
+    {
       id: 1,
       title: "florenciacurci.xyz",
       details: "",
@@ -76,6 +82,13 @@ const data = {
     //   details: { en: "archived", es: "archivado" },
     //   url: "https://trrueno.vercel.app",
     //   year: 2020,
+    // },
+    // {
+    //   id: 12,
+    //   title: "solo flyers",
+    //   details: { en: "under construction", es: "en construccion" },
+    //   url: "https://satira-hub.github.io/solo_flyers/",
+    //   year: 2025,
     // },
   ],
 };
