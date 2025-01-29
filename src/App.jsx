@@ -20,17 +20,17 @@ function App() {
   }, []);
 
   return (
-    <div className="flex h-screen w-full flex-col items-start justify-start gap-2 p-6 font-[terminal-grotesque] text-3xl sm:text-6xl">
-      <div className="flex flex-wrap items-center gap-3">
+    <div className="flex h-screen w-full flex-col items-start justify-start gap-2 p-6 font-[terminal-grotesque]">
+      <div className="flex flex-wrap items-center gap-3 text-3xl sm:text-6xl">
         <h1 className="animate-pulse">a++s</h1>
-        <div className="bg-accent size-2 rounded-full sm:size-3"></div>
-        <h2 className="">diseño, desarrollo web, dirección creativa</h2>
+        <div className="size-2 rounded-full bg-accent sm:size-3"></div>
+        <h2 className="">diseño y desarrollo web</h2>
       </div>
       {pageData.years &&
         pageData.years.map((year) => (
           <div key={year}>
-            <h3 className="mt-2 text-base font-bold">{year}</h3>
-            <ul className="">
+            <h3 className="mt-2 font-bold">{year}</h3>
+            <ul className="text-2xl sm:text-4xl">
               {pageData.works[year].map((work) => (
                 <li key={work.id}>
                   <a
@@ -54,16 +54,16 @@ function App() {
         ))}
 
       <button
-        className="hover:bg-accent bg-text text-background mt-8 px-2 text-base"
+        className="mt-8 bg-text px-2 text-2xl text-background hover:bg-accent sm:text-4xl"
         onClick={() => setIsContactOpen(!isContactOpen)}
       >
         contacto
       </button>
 
       {isContactOpen && (
-        <div className="bg-background fixed inset-0 flex h-screen w-screen items-center justify-center">
+        <div className="fixed inset-0 flex h-screen w-screen items-center justify-center bg-background text-2xl sm:text-4xl">
           <button
-            className="hover:text-accent absolute right-4 top-4"
+            className="absolute right-4 top-4 hover:text-accent"
             onClick={() => setIsContactOpen(false)}
           >
             X
