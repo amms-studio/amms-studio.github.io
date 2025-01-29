@@ -48,13 +48,13 @@ const data = {
     //   url: "https://sofja.uno",
     //   year: 2024,
     // },
-    {
-      id: 7,
-      title: "aguja.re",
-      details: { en: "experimental", es: "experimental" },
-      url: "https://aguja.re",
-      year: 2024,
-    },
+    // {
+    //   id: 7,
+    //   title: "aguja.re",
+    //   details: { en: "experimental", es: "experimental" },
+    //   url: "https://aguja.re",
+    //   year: 2024,
+    // },
     // {
     //   id: 8,
     //   title: "diegogalloti.com",
