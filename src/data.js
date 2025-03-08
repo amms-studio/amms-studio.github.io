@@ -1,9 +1,15 @@
 const data = {
   works: [
     {
+      id: "princesa-vampiro",
+      title: "princesavampiro.com",
+      url: "https://princesavampiro.com",
+      year: 2025,
+    },
+    {
       id: "terra-ignota-map",
-      title: "terraignota-map",
-      url: "https://tignotamap.github.io/terraignota-map",
+      title: "map.nicolasspencer.com",
+      url: "https://map.nicolasspencer.com",
       year: 2025,
     },
     {
