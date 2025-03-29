@@ -1,6 +1,12 @@
 const data = {
   works: [
     {
+      id: "clara-bunge",
+      title: "clarabunge.com",
+      url: "https://clarabunge.com",
+      year: 2025,
+    },
+    {
       id: "princesa-vampiro",
       title: "princesavampiro.com",
       url: "https://princesavampiro.com",
